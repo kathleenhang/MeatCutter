@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2442A407219FCC5D0061392F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A406219FCC5D0061392F /* AppDelegate.swift */; };
+		2442A409219FCC5D0061392F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A408219FCC5D0061392F /* ViewController.swift */; };
+		2442A40C219FCC5D0061392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2442A40A219FCC5D0061392F /* Main.storyboard */; };
+		2442A40E219FCC5E0061392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442A40D219FCC5E0061392F /* Assets.xcassets */; };
+		2442A411219FCC5E0061392F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2442A40F219FCC5E0061392F /* LaunchScreen.storyboard */; };
+		2442A41C219FCC5E0061392F /* MeatCutterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A41B219FCC5E0061392F /* MeatCutterTests.swift */; };
+		2442A427219FCC5E0061392F /* MeatCutterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A426219FCC5E0061392F /* MeatCutterUITests.swift */; };
+		2442A42C219FCC5E0061392F /* MeatCutter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2442A42B219FCC5E0061392F /* MeatCutter WatchKit App.app */; };
+		2442A432219FCC5E0061392F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2442A430219FCC5E0061392F /* Interface.storyboard */; };
+		2442A434219FCC5F0061392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442A433219FCC5F0061392F /* Assets.xcassets */; };
+		2442A43B219FCC5F0061392F /* MeatCutter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2442A43A219FCC5F0061392F /* MeatCutter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2442A440219FCC5F0061392F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A43F219FCC5F0061392F /* InterfaceController.swift */; };
+		2442A442219FCC5F0061392F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A441219FCC5F0061392F /* ExtensionDelegate.swift */; };
+		2442A444219FCC5F0061392F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442A443219FCC5F0061392F /* NotificationController.swift */; };
+		2442A446219FCC5F0061392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442A445219FCC5F0061392F /* Assets.xcassets */; };
+		24EF446A21A27509006A1549 /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF446921A27509006A1549 /* InterfaceController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2442A418219FCC5E0061392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2442A3FB219FCC5D0061392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2442A402219FCC5D0061392F;
+			remoteInfo = MeatCutter;
+		};
+		2442A423219FCC5E0061392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2442A3FB219FCC5D0061392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2442A402219FCC5D0061392F;
+			remoteInfo = MeatCutter;
+		};
+		2442A42D219FCC5E0061392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2442A3FB219FCC5D0061392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2442A42A219FCC5E0061392F;
+			remoteInfo = "MeatCutter WatchKit App";
+		};
+		2442A43C219FCC5F0061392F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2442A3FB219FCC5D0061392F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2442A439219FCC5F0061392F;
+			remoteInfo = "MeatCutter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2442A44E219FCC5F0061392F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2442A43B219FCC5F0061392F /* MeatCutter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A452219FCC5F0061392F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2442A42C219FCC5E0061392F /* MeatCutter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2442A403219FCC5D0061392F /* MeatCutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatCutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2442A406219FCC5D0061392F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2442A408219FCC5D0061392F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2442A40B219FCC5D0061392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2442A40D219FCC5E0061392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2442A410219FCC5E0061392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2442A412219FCC5E0061392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2442A417219FCC5E0061392F /* MeatCutterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatCutterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2442A41B219FCC5E0061392F /* MeatCutterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatCutterTests.swift; sourceTree = "<group>"; };
+		2442A41D219FCC5E0061392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2442A422219FCC5E0061392F /* MeatCutterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatCutterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2442A426219FCC5E0061392F /* MeatCutterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatCutterUITests.swift; sourceTree = "<group>"; };
+		2442A428219FCC5E0061392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2442A42B219FCC5E0061392F /* MeatCutter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeatCutter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2442A431219FCC5E0061392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2442A433219FCC5F0061392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2442A435219FCC5F0061392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2442A43A219FCC5F0061392F /* MeatCutter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeatCutter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2442A43F219FCC5F0061392F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2442A441219FCC5F0061392F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2442A443219FCC5F0061392F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2442A445219FCC5F0061392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2442A447219FCC5F0061392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2442A448219FCC5F0061392F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		24EF446921A27509006A1549 /* InterfaceController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2442A400219FCC5D0061392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A414219FCC5E0061392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A41F219FCC5E0061392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A437219FCC5F0061392F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2442A3FA219FCC5D0061392F = {
+			isa = PBXGroup;
+			children = (
+				2442A408219FCC5D0061392F /* ViewController.swift */,
+				2442A405219FCC5D0061392F /* MeatCutter */,
+				2442A41A219FCC5E0061392F /* MeatCutterTests */,
+				2442A425219FCC5E0061392F /* MeatCutterUITests */,
+				2442A42F219FCC5E0061392F /* MeatCutter WatchKit App */,
+				2442A43E219FCC5F0061392F /* MeatCutter WatchKit Extension */,
+				2442A404219FCC5D0061392F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2442A404219FCC5D0061392F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2442A403219FCC5D0061392F /* MeatCutter.app */,
+				2442A417219FCC5E0061392F /* MeatCutterTests.xctest */,
+				2442A422219FCC5E0061392F /* MeatCutterUITests.xctest */,
+				2442A42B219FCC5E0061392F /* MeatCutter WatchKit App.app */,
+				2442A43A219FCC5F0061392F /* MeatCutter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2442A405219FCC5D0061392F /* MeatCutter */ = {
+			isa = PBXGroup;
+			children = (
+				2442A406219FCC5D0061392F /* AppDelegate.swift */,
+				2442A40A219FCC5D0061392F /* Main.storyboard */,
+				2442A40D219FCC5E0061392F /* Assets.xcassets */,
+				2442A40F219FCC5E0061392F /* LaunchScreen.storyboard */,
+				2442A412219FCC5E0061392F /* Info.plist */,
+			);
+			path = MeatCutter;
+			sourceTree = "<group>";
+		};
+		2442A41A219FCC5E0061392F /* MeatCutterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2442A41B219FCC5E0061392F /* MeatCutterTests.swift */,
+				2442A41D219FCC5E0061392F /* Info.plist */,
+			);
+			path = MeatCutterTests;
+			sourceTree = "<group>";
+		};
+		2442A425219FCC5E0061392F /* MeatCutterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2442A426219FCC5E0061392F /* MeatCutterUITests.swift */,
+				2442A428219FCC5E0061392F /* Info.plist */,
+			);
+			path = MeatCutterUITests;
+			sourceTree = "<group>";
+		};
+		2442A42F219FCC5E0061392F /* MeatCutter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2442A430219FCC5E0061392F /* Interface.storyboard */,
+				2442A433219FCC5F0061392F /* Assets.xcassets */,
+				2442A435219FCC5F0061392F /* Info.plist */,
+			);
+			path = "MeatCutter WatchKit App";
+			sourceTree = "<group>";
+		};
+		2442A43E219FCC5F0061392F /* MeatCutter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24EF446921A27509006A1549 /* InterfaceController2.swift */,
+				2442A43F219FCC5F0061392F /* InterfaceController.swift */,
+				2442A441219FCC5F0061392F /* ExtensionDelegate.swift */,
+				2442A443219FCC5F0061392F /* NotificationController.swift */,
+				2442A445219FCC5F0061392F /* Assets.xcassets */,
+				2442A447219FCC5F0061392F /* Info.plist */,
+				2442A448219FCC5F0061392F /* PushNotificationPayload.apns */,
+			);
+			path = "MeatCutter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2442A402219FCC5D0061392F /* MeatCutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2442A453219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter" */;
+			buildPhases = (
+				2442A3FF219FCC5D0061392F /* Sources */,
+				2442A400219FCC5D0061392F /* Frameworks */,
+				2442A401219FCC5D0061392F /* Resources */,
+				2442A452219FCC5F0061392F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2442A42E219FCC5E0061392F /* PBXTargetDependency */,
+			);
+			name = MeatCutter;
+			productName = MeatCutter;
+			productReference = 2442A403219FCC5D0061392F /* MeatCutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2442A416219FCC5E0061392F /* MeatCutterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2442A456219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutterTests" */;
+			buildPhases = (
+				2442A413219FCC5E0061392F /* Sources */,
+				2442A414219FCC5E0061392F /* Frameworks */,
+				2442A415219FCC5E0061392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2442A419219FCC5E0061392F /* PBXTargetDependency */,
+			);
+			name = MeatCutterTests;
+			productName = MeatCutterTests;
+			productReference = 2442A417219FCC5E0061392F /* MeatCutterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2442A421219FCC5E0061392F /* MeatCutterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2442A459219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutterUITests" */;
+			buildPhases = (
+				2442A41E219FCC5E0061392F /* Sources */,
+				2442A41F219FCC5E0061392F /* Frameworks */,
+				2442A420219FCC5E0061392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2442A424219FCC5E0061392F /* PBXTargetDependency */,
+			);
+			name = MeatCutterUITests;
+			productName = MeatCutterUITests;
+			productReference = 2442A422219FCC5E0061392F /* MeatCutterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2442A42A219FCC5E0061392F /* MeatCutter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2442A44F219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter WatchKit App" */;
+			buildPhases = (
+				2442A429219FCC5E0061392F /* Resources */,
+				2442A44E219FCC5F0061392F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2442A43D219FCC5F0061392F /* PBXTargetDependency */,
+			);
+			name = "MeatCutter WatchKit App";
+			productName = "MeatCutter WatchKit App";
+			productReference = 2442A42B219FCC5E0061392F /* MeatCutter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2442A439219FCC5F0061392F /* MeatCutter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2442A44B219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter WatchKit Extension" */;
+			buildPhases = (
+				2442A436219FCC5F0061392F /* Sources */,
+				2442A437219FCC5F0061392F /* Frameworks */,
+				2442A438219FCC5F0061392F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeatCutter WatchKit Extension";
+			productName = "MeatCutter WatchKit Extension";
+			productReference = 2442A43A219FCC5F0061392F /* MeatCutter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2442A3FB219FCC5D0061392F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kathleen Hang";
+				TargetAttributes = {
+					2442A402219FCC5D0061392F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2442A416219FCC5E0061392F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2442A402219FCC5D0061392F;
+					};
+					2442A421219FCC5E0061392F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2442A402219FCC5D0061392F;
+					};
+					2442A42A219FCC5E0061392F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2442A439219FCC5F0061392F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2442A3FE219FCC5D0061392F /* Build configuration list for PBXProject "MeatCutter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2442A3FA219FCC5D0061392F;
+			productRefGroup = 2442A404219FCC5D0061392F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2442A402219FCC5D0061392F /* MeatCutter */,
+				2442A416219FCC5E0061392F /* MeatCutterTests */,
+				2442A421219FCC5E0061392F /* MeatCutterUITests */,
+				2442A42A219FCC5E0061392F /* MeatCutter WatchKit App */,
+				2442A439219FCC5F0061392F /* MeatCutter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2442A401219FCC5D0061392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A411219FCC5E0061392F /* LaunchScreen.storyboard in Resources */,
+				2442A40E219FCC5E0061392F /* Assets.xcassets in Resources */,
+				2442A40C219FCC5D0061392F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A415219FCC5E0061392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A420219FCC5E0061392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A429219FCC5E0061392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A434219FCC5F0061392F /* Assets.xcassets in Resources */,
+				2442A432219FCC5E0061392F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A438219FCC5F0061392F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A446219FCC5F0061392F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2442A3FF219FCC5D0061392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A409219FCC5D0061392F /* ViewController.swift in Sources */,
+				2442A407219FCC5D0061392F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A413219FCC5E0061392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A41C219FCC5E0061392F /* MeatCutterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A41E219FCC5E0061392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A427219FCC5E0061392F /* MeatCutterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2442A436219FCC5F0061392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EF446A21A27509006A1549 /* InterfaceController2.swift in Sources */,
+				2442A444219FCC5F0061392F /* NotificationController.swift in Sources */,
+				2442A442219FCC5F0061392F /* ExtensionDelegate.swift in Sources */,
+				2442A440219FCC5F0061392F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2442A419219FCC5E0061392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2442A402219FCC5D0061392F /* MeatCutter */;
+			targetProxy = 2442A418219FCC5E0061392F /* PBXContainerItemProxy */;
+		};
+		2442A424219FCC5E0061392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2442A402219FCC5D0061392F /* MeatCutter */;
+			targetProxy = 2442A423219FCC5E0061392F /* PBXContainerItemProxy */;
+		};
+		2442A42E219FCC5E0061392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2442A42A219FCC5E0061392F /* MeatCutter WatchKit App */;
+			targetProxy = 2442A42D219FCC5E0061392F /* PBXContainerItemProxy */;
+		};
+		2442A43D219FCC5F0061392F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2442A439219FCC5F0061392F /* MeatCutter WatchKit Extension */;
+			targetProxy = 2442A43C219FCC5F0061392F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2442A40A219FCC5D0061392F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2442A40B219FCC5D0061392F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2442A40F219FCC5E0061392F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2442A410219FCC5E0061392F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2442A430219FCC5E0061392F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2442A431219FCC5E0061392F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2442A449219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2442A44A219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2442A44C219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MeatCutter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		2442A44D219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MeatCutter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		2442A450219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MeatCutter_WatchKit_Extension;
+				INFOPLIST_FILE = "MeatCutter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		2442A451219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MeatCutter_WatchKit_Extension;
+				INFOPLIST_FILE = "MeatCutter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		2442A454219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FWTKQVFLS;
+				INFOPLIST_FILE = MeatCutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2442A455219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FWTKQVFLS;
+				INFOPLIST_FILE = MeatCutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2442A457219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeatCutterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeatCutter.app/MeatCutter";
+			};
+			name = Debug;
+		};
+		2442A458219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeatCutterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeatCutter.app/MeatCutter";
+			};
+			name = Release;
+		};
+		2442A45A219FCC5F0061392F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeatCutterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeatCutter;
+			};
+			name = Debug;
+		};
+		2442A45B219FCC5F0061392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeatCutterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.MeatCutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeatCutter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2442A3FE219FCC5D0061392F /* Build configuration list for PBXProject "MeatCutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A449219FCC5F0061392F /* Debug */,
+				2442A44A219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2442A44B219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A44C219FCC5F0061392F /* Debug */,
+				2442A44D219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2442A44F219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A450219FCC5F0061392F /* Debug */,
+				2442A451219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2442A453219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A454219FCC5F0061392F /* Debug */,
+				2442A455219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2442A456219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A457219FCC5F0061392F /* Debug */,
+				2442A458219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2442A459219FCC5F0061392F /* Build configuration list for PBXNativeTarget "MeatCutterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2442A45A219FCC5F0061392F /* Debug */,
+				2442A45B219FCC5F0061392F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2442A3FB219FCC5D0061392F /* Project object */;
+}

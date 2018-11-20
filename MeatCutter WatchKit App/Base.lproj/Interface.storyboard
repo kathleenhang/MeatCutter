@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MeatCutter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="opc-vg-mcy">
+                            <items>
+                                <imageView width="134" height="79" alignment="left" image="meatslice" contentMode="scaleAspectFit" id="jFE-bB-52B"/>
+                                <label width="125" height="25" alignment="left" text="MEAT CUTTER " textAlignment="center" id="8O2-KK-J9T"/>
+                                <button width="1" alignment="left" title="PLAY NOW" id="gkF-od-gnn">
+                                    <connections>
+                                        <action selector="play" destination="AgC-eL-Hgc" id="UtK-a0-wd4"/>
+                                        <segue destination="T4p-Bh-hPY" kind="push" identifier="playBtn" id="zUu-0V-4JZ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-76" y="260"/>
+        </scene>
+        <!--Interface Controller2-->
+        <scene sceneID="APW-2n-zjg">
+            <objects>
+                <controller id="T4p-Bh-hPY" customClass="InterfaceController2" customModule="MeatCutter_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="192" alignment="left" numberOfLines="0" id="jGH-Zg-AdO">
+                            <string key="text">Frankie is an ordinary boy who grew up on a farm. He already has the asset skill of meat cutting due to his naturalistic lifestyle.</string>
+                        </label>
+                        <button width="1" alignment="left" title="Option 1" id="0dL-ws-5nx">
+                            <connections>
+                                <action selector="selectOption1" destination="T4p-Bh-hPY" id="Kap-YA-bZv"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Option 2" id="Mgq-A3-x5G">
+                            <connections>
+                                <action selector="selectOption2" destination="T4p-Bh-hPY" id="qds-wB-YFX"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="253" y="279.5"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="25" y="911"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MeatCutter_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="1113"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="MeatCutter_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="301" y="818"/>
+        </scene>
+    </scenes>
+</document>
